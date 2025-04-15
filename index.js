@@ -53,5 +53,4 @@ const makeCommits = async (n) => {
   await git.push("origin", "main");
 };
 
-// Thực hiện 5000 commit
-makeCommits(5000);
+makeCommits(6000);
